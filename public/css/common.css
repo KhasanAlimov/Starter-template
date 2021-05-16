@@ -1,0 +1,10 @@
+
+body {
+  background-color: #ececec !important;
+}
+#top_navbar {
+  padding: 0;
+}
+.navbar-brand .logo {
+  width:45px;
+}
