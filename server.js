@@ -19,6 +19,8 @@ hbs.registerPartials(__dirname + "/views/partials");
 
 app.use(express.static(__dirname + '/public'));
 
+app.use(express.urlencoded({extended: true}));
+
 routes(app);
 
 
